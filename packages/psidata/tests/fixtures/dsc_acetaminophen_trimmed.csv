@@ -1,0 +1,388 @@
+Filename,2026_05_26_Acetaminophen_n60C_200C_2Cmin_x2_DSC
+Instrument name,DSC2A-00468 (192.168.1.100)
+Operator,JLY
+rundate,5/27/2026
+Sample name,2026_05_26_Acetaminophen_n60C_200C_2Cmin_x2_DSC
+proceduresegments,Data Off ; Equilibrate -60.00 °C; Data On ; Ramp 2.00 °C/min to 200.00 °C; Data Off ; Isothermal 1.0 min; Data On ; Ramp 2.00 °C/min to -60.00 °C; Data Off ; Isothermal 1.0 min; Data On ; Ramp 2.00 °C/min to 200.00 °C; Data Off ; Isothermal 1.0 min; Data On ; Ramp 2.00 °C/min to -60.00 °C; Data Off ; Isothermal 1.0 min; Data On ; Ramp 2.00 °C/min to 30.00 °C
+[File Parameters]
+Run date,5/27/2026 2:00:47 AM
+Trios version,5.1.1.46572
+Original File Name,
+Current File Name,D:\DSC2500\JYarger\2026_05_26_Acetaminophen_n60C_200C_2Cmin_x2_DSC.tri
+[Procedure]
+Procedure Name,DSC_2Cmin_n60C_200C_x2
+Sample Name,2026_05_26_Acetaminophen_n60C_200C_2Cmin_x2_DSC
+Sample Mass,5.61 mg
+Reference Sample Mass,0 mg
+Pan Mass,56.36 mg
+Pan Number,6
+Reference Pan Mass,57.04 mg
+Reference Pan Number,19
+Pan Type,Aluminum Hermetic
+Comments,DSC samples are in DSC Consumables Tzero Hermetic Aluminium pans/lids.  Google Sheet: DSC_Y2_Tray_Binary_CoCrystals_Pharma_May2026.
+Project Name,Pharma
+Operator,JLY
+Test,Custom
+Unload Max Temperature,30
+Unload Min Temperature,30
+Load Max Temperature,30
+Load Min Temperature,30
+Stop on Gas Flow Error,Yes
+[Signal List]
+Signal #1,Time (min)
+Signal #2,Temperature (°C)
+Signal #3,Heat Flow (mW)
+Signal #4,Delta T (µV)
+Signal #5,Delta Tzero (µV)
+Signal #6,Tzero Temperature (°C)
+Signal #7,Cell Purge (mL/min)
+Signal #8,Heater Temp (°C)
+Signal #9,Power Delivered (W)
+Signal #10,Reference Junction Temperature (°C)
+Signal #11,Flange Temperature (°C)
+Signal #12,Heat Flow Phase (rad)
+Signal #13,Total Heat Capacity (J/°C)
+Signal #14,Heat Capacity (J/°C)
+[Configuration]
+Company Name,ASU
+Instrument Name,DSC2A-00468
+Instrument Type,DSC2500
+Serial Number,DSC2A-00468
+IP,192.168.1.100
+Location of Instrument,MRRC
+DisplayType,Unknown
+Sample Interval ,0.1 s/pt
+Selected Heat Flow,T4P
+Exotherm Direction,Down
+Cell Serial,DRC2-00792
+Lid Type,Standard
+Cooler,RCS 90
+Leave Cooler on at End of Sequence,On
+Gas 2,Nitrogen
+Gas Selected,Channel 1
+Flow Rate,50 mL/min
+Secondary Purge,On
+Licensed Heat Flow,Heat Flow T4P
+Modulation Licensed,Yes
+[Versions]
+Common IDD Version,1
+Cortex Version,VER 2.10.2.31
+Driver,5.0.0.6
+GDM Version,1.0.3.3
+TouchscreenVersion,1.0.0.16145
+FEP Version,1.2.1.21
+FEP Bootloader,2.0.0.5
+AutoSampler Version,2.1.1.26
+Auto Sampler Bootloader,2.0.0.5
+FCM Version,1.1.0.3
+FCM Bootloader,2.0.0.5
+[Experiment Logs]
+Experiment Log Entry # 1,Data On set to 0
+Experiment Log Entry # 3,Equilibrate Segment -60 (C) Started
+Experiment Log Entry # 5,Air Cool is off.
+Experiment Log Entry # 7,Data On set to 1
+Experiment Log Entry # 9,Ramp Segment 2 C/min to 200 Started
+Experiment Log Entry # 11,Data On set to 0
+Experiment Log Entry # 13,Isothermal Segment 1 min started
+Experiment Log Entry # 15,Data On set to 1
+Experiment Log Entry # 17,Ramp Segment 2 C/min to -60 Started
+Experiment Log Entry # 19,Data On set to 0
+Experiment Log Entry # 21,Isothermal Segment 1 min started
+Experiment Log Entry # 23,Data On set to 1
+Experiment Log Entry # 25,Ramp Segment 2 C/min to 200 Started
+Experiment Log Entry # 27,Auto sampler has detected that GDM has gone offline
+Experiment Log Entry # 29,FEP has detected that GDM has gone offline
+Experiment Log Entry # 31,Data On set to 0
+Experiment Log Entry # 33,Isothermal Segment 1 min started
+Experiment Log Entry # 35,Data On set to 1
+Experiment Log Entry # 37,Ramp Segment 2 C/min to -60 Started
+Experiment Log Entry # 39,Data On set to 0
+Experiment Log Entry # 41,Isothermal Segment 1 min started
+Experiment Log Entry # 43,Data On set to 1
+Experiment Log Entry # 45,Ramp Segment 2 C/min to 30 Started
+[Method Log]
+Method Log Entry # 1,Data Off
+Method Log Entry # 2,Equilibrate -60 °C
+Method Log Entry # 3,Data On
+Method Log Entry # 4,(Ramp 1356831) Ramp 2 °C/minute to 200 °C
+Method Log Entry # 5,Data Off
+Method Log Entry # 6,Isothermal 1 minutes
+Method Log Entry # 7,Data On
+Method Log Entry # 8,(Ramp 1356835) Ramp 2 °C/minute to -60 °C
+Method Log Entry # 9,Data Off
+Method Log Entry # 10,Isothermal 1 minutes
+Method Log Entry # 11,Data On
+Method Log Entry # 12,(Ramp 1356839) Ramp 2 °C/minute to 200 °C
+Method Log Entry # 13,Data Off
+Method Log Entry # 14,Isothermal 1 minutes
+Method Log Entry # 15,Data On
+Method Log Entry # 16,(Ramp 1356843) Ramp 2 °C/minute to -60 °C
+Method Log Entry # 17,Data Off
+Method Log Entry # 18,Isothermal 1 minutes
+Method Log Entry # 19,Data On
+Method Log Entry # 20,(Ramp 1356847) Ramp 2 °C/minute to 30 °C
+Cell Serial,DRC2-00792
+[T1 Calibration]
+Slope,-0.008529666
+Offset,9.636258
+Initial Temperature,98.23
+GUID,f8bfdadc-4977-4fdf-ba6d-0ba9134940c3
+[TZero Calibration]
+Date Applied,11/29/2022 4:06:13 PM
+Description,From -89.059 °C to 396.009 °C at 20.000°C/min
+Gas Type,Nitrogen
+Pan Type,None
+Source Files 1,C:\Users\yargerlab\Desktop\DSC Data\General\TZero_calibration_11_29_22_2nd(2).tri
+Source Files 2,C:\Users\yargerlab\Desktop\DSC Data\General\TZero_calibration_11_29_22_2nd(3).tri
+Delta T Offset,13.05235
+Delta T Slope,-0.007271007
+Delta T0 Offset,-13.69128
+Delta T0 Slope,0.06063341
+[Temperature Calibration]
+Date Applied,11/29/2022 7:12:28 PM
+Description,From 106.590 °C to 186.590 °C at 10.000°C/min
+Gas Type,Nitrogen
+Pan Type,Tzero Aluminum Hermetic
+Source Files 1,C:\Users\yargerlab\Desktop\DSC Data\General\Indium(6).tri
+Measured 1,157.391
+Known 1,156.598
+[Cell Constant Calibration]
+Date Applied,11/29/2022 7:12:29 PM
+Description,From 106.590 °C to 186.590 °C at 10.000°C/min
+Gas Type,Nitrogen
+Pan Type,Tzero Aluminum Hermetic
+Source Files 1,C:\Users\yargerlab\Desktop\DSC Data\General\Indium(6).tri
+T4P KCell,1.006051
+Onset Slope,63.26126 mW/°C
+[Direct Cp Calibration]
+Date Applied,11/30/2022 11:04:51 AM
+Description,From -79.983 °C to 298.409 °C at 10.000°C/min
+Gas Type,Nitrogen
+Pan Type,Tzero Aluminum Hermetic
+Source Files 1,C:\Users\yargerlab\Desktop\DSC Data\General\Sapphire_Heat_Capacity_11_30_22.tri
+[Rev Cp Calibration]
+Date Applied,11/30/2022 1:58:51 PM
+Description,From -79.996 °C to 292.812 °C at 3.000°C/min
+Gas Type,Nitrogen
+Pan Type,Tzero Aluminum Hermetic
+Source Files 1,C:\Users\yargerlab\Desktop\DSC Data\General\Sapphire_MDSC_Calibration_11_30_22.tri
+[step]
+Ramp 2.00 °C/min to 200.00 °C
+Time,Temperature,Heat Flow (Normalized)
+min,°C,W/g
+0.00,-59.70,-0.045
+0.00,-59.70,-0.045
+0.00,-59.71,-0.046
+0.01,-59.71,-0.046
+0.01,-59.71,-0.047
+0.01,-59.71,-0.048
+0.01,-59.71,-0.048
+0.01,-59.71,-0.048
+0.01,-59.71,-0.048
+0.01,-59.71,-0.048
+0.02,-59.72,-0.049
+0.02,-59.72,-0.049
+0.02,-59.72,-0.049
+0.02,-59.72,-0.049
+0.02,-59.72,-0.049
+0.03,-59.72,-0.049
+0.03,-59.72,-0.049
+0.03,-59.72,-0.048
+0.03,-59.72,-0.048
+0.03,-59.72,-0.048
+0.03,-59.72,-0.047
+0.03,-59.72,-0.047
+0.04,-59.73,-0.046
+0.04,-59.72,-0.046
+0.04,-59.73,-0.046
+0.04,-59.73,-0.046
+0.04,-59.73,-0.046
+0.05,-59.73,-0.045
+0.05,-59.73,-0.045
+0.05,-59.73,-0.045
+0.05,-59.73,-0.044
+0.05,-59.73,-0.044
+0.05,-59.73,-0.043
+0.05,-59.73,-0.042
+0.06,-59.73,-0.042
+0.06,-59.73,-0.041
+0.06,-59.73,-0.040
+0.06,-59.73,-0.040
+0.06,-59.73,-0.039
+0.07,-59.73,-0.039
+[step]
+Ramp 2.00 °C/min to -60.00 °C
+Time,Temperature,Heat Flow (Normalized)
+min,°C,W/g
+130.96,200.14,-0.053
+130.96,200.13,-0.053
+130.97,200.13,-0.053
+130.97,200.13,-0.053
+130.97,200.14,-0.053
+130.97,200.14,-0.053
+130.97,200.14,-0.053
+130.98,200.14,-0.053
+130.98,200.13,-0.053
+130.98,200.13,-0.053
+130.98,200.14,-0.053
+130.98,200.14,-0.053
+130.98,200.14,-0.053
+130.99,200.13,-0.053
+130.99,200.13,-0.053
+130.99,200.13,-0.053
+130.99,200.13,-0.053
+130.99,200.13,-0.053
+130.99,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.00,200.13,-0.053
+131.01,200.13,-0.053
+131.01,200.13,-0.053
+131.01,200.13,-0.053
+131.01,200.13,-0.053
+131.01,200.13,-0.053
+131.01,200.13,-0.053
+131.02,200.13,-0.053
+131.02,200.13,-0.053
+131.02,200.13,-0.053
+131.02,200.13,-0.053
+131.02,200.13,-0.053
+131.03,200.13,-0.054
+131.03,200.13,-0.054
+131.03,200.13,-0.054
+[step]
+Ramp 2.00 °C/min to 200.00 °C
+Time,Temperature,Heat Flow (Normalized)
+min,°C,W/g
+261.97,-59.91,-0.018
+261.97,-59.91,-0.018
+261.97,-59.91,-0.018
+261.97,-59.91,-0.018
+261.97,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.98,-59.91,-0.018
+261.99,-59.91,-0.018
+261.99,-59.91,-0.018
+261.99,-59.91,-0.018
+261.99,-59.91,-0.018
+261.99,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.00,-59.91,-0.018
+262.01,-59.91,-0.018
+262.01,-59.91,-0.018
+262.01,-59.91,-0.018
+262.01,-59.91,-0.018
+262.01,-59.91,-0.018
+262.02,-59.91,-0.018
+262.02,-59.91,-0.018
+262.02,-59.90,-0.018
+262.02,-59.91,-0.018
+262.02,-59.90,-0.018
+262.02,-59.90,-0.018
+262.03,-59.90,-0.018
+262.03,-59.90,-0.018
+262.03,-59.90,-0.018
+262.03,-59.90,-0.018
+262.03,-59.90,-0.018
+[step]
+Ramp 2.00 °C/min to -60.00 °C
+Time,Temperature,Heat Flow (Normalized)
+min,°C,W/g
+392.97,200.13,-0.045
+392.97,200.13,-0.045
+392.97,200.13,-0.045
+392.97,200.13,-0.045
+392.97,200.13,-0.045
+392.97,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.98,200.13,-0.045
+392.99,200.13,-0.045
+392.99,200.13,-0.045
+392.99,200.12,-0.045
+392.99,200.13,-0.045
+392.99,200.13,-0.045
+392.99,200.13,-0.045
+393.00,200.13,-0.045
+393.00,200.13,-0.045
+393.00,200.12,-0.045
+393.00,200.13,-0.045
+393.00,200.12,-0.045
+393.01,200.13,-0.045
+393.01,200.12,-0.045
+393.01,200.12,-0.045
+393.01,200.12,-0.045
+393.01,200.12,-0.045
+393.01,200.12,-0.045
+393.02,200.12,-0.045
+393.02,200.12,-0.046
+393.02,200.12,-0.046
+393.02,200.12,-0.046
+393.02,200.12,-0.046
+393.02,200.12,-0.047
+393.03,200.12,-0.047
+393.03,200.12,-0.048
+393.03,200.12,-0.048
+393.03,200.12,-0.048
+[step]
+Ramp 2.00 °C/min to 30.00 °C
+Time,Temperature,Heat Flow (Normalized)
+min,°C,W/g
+523.97,-59.91,-0.018
+523.97,-59.91,-0.018
+523.97,-59.91,-0.018
+523.97,-59.91,-0.018
+523.97,-59.91,-0.018
+523.97,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.98,-59.91,-0.018
+523.99,-59.91,-0.018
+523.99,-59.91,-0.018
+523.99,-59.91,-0.018
+523.99,-59.91,-0.018
+523.99,-59.91,-0.018
+523.99,-59.91,-0.018
+524.00,-59.91,-0.018
+524.00,-59.91,-0.018
+524.00,-59.91,-0.018
+524.00,-59.91,-0.018
+524.00,-59.91,-0.018
+524.01,-59.91,-0.018
+524.01,-59.91,-0.018
+524.01,-59.91,-0.018
+524.01,-59.91,-0.018
+524.01,-59.91,-0.018
+524.01,-59.91,-0.018
+524.02,-59.91,-0.018
+524.02,-59.91,-0.017
+524.02,-59.91,-0.017
+524.02,-59.91,-0.017
+524.02,-59.90,-0.017
+524.02,-59.90,-0.017
+524.03,-59.90,-0.017
+524.03,-59.90,-0.017
+524.03,-59.90,-0.017
+524.03,-59.90,-0.017

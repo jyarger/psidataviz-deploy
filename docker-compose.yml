@@ -1,0 +1,35 @@
+# Production stack for a public VPS: PsiDataViz behind Caddy (automatic HTTPS).
+#
+#   1. Point a DNS A record at the VPS, then set PSIDATA_DOMAIN to that hostname.
+#   2. (optional) Set GITHUB_TOKEN to raise the GitHub API rate limit.
+#   3. docker compose up -d --build
+#
+# Caddy obtains and renews a Let's Encrypt certificate automatically for PSIDATA_DOMAIN.
+
+services:
+  app:
+    build: .            # v2 single image: React UI + FastAPI API on one port (8000)
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2
+    environment:
+      - PSIDATA_DOMAIN=${PSIDATA_DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - app
+    restart: unless-stopped
+
+volumes:
+  caddy-data:
+  caddy-config:

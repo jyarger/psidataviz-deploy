@@ -1,0 +1,269 @@
+Filename	2023_06_14_Indium_wire_std
+Instrument name	DSC2A-00468 (192.168.1.100)
+Operator	SBK
+rundate	6/14/2023
+Sample name	2023_06_14_Indium_wire_std
+proceduresegments	Data Off ; Equilibrate 120.00 °C; Data On ; Ramp 10.00 °C/min to 180.00 °C; Data Off ; Isothermal 0.1 min; Data On ; Ramp 10.00 °C/min to 120.00 °C
+[File Parameters]
+Run date	6/14/2023 2:24:41 PM
+Trios version	5.1.1.46572
+Original File Name	C:\Users\yargerlab\Desktop\DSC Data\General\2023_06_14_Indium_wire_std.tri
+Current File Name	C:\Users\yargerlab\Desktop\DSC Data\General\2023_06_14_Indium_wire_std.tri
+[Procedure]
+Procedure Name	Indium Test
+Sample Name	2023_06_14_Indium_wire_std
+Sample Mass	20.72 mg
+Reference Sample Mass	0 mg
+Pan Mass	53.8 mg
+Pan Number	52
+Reference Pan Mass	53.66 mg
+Reference Pan Number	46
+Pan Type	Aluminum Hermetic
+Comments	New indium wire standard using DSC84010 aluminum pan and DSC84011 hermetic aluminum lid.
+Project Name	SIlk ASDs
+Operator	SBK
+Test	Custom
+Unload Max Temperature	30
+Unload Min Temperature	30
+Load Max Temperature	30
+Load Min Temperature	30
+Stop on Gas Flow Error	Yes
+[Signal List]
+Signal #1	Time (min)
+Signal #2	Temperature (°C)
+Signal #3	Heat Flow (mW)
+Signal #4	Delta T (µV)
+Signal #5	Delta Tzero (µV)
+Signal #6	Tzero Temperature (°C)
+Signal #7	Cell Purge (mL/min)
+Signal #8	Heater Temp (°C)
+Signal #9	Power Delivered (W)
+Signal #10	Reference Junction Temperature (°C)
+Signal #11	Flange Temperature (°C)
+Signal #12	Heat Flow Phase (rad)
+Signal #13	Total Heat Capacity (J/°C)
+Signal #14	Heat Capacity (J/°C)
+[Configuration]
+Company Name	ASU
+Instrument Name	DSC2A-00468
+Instrument Type	DSC2500
+Serial Number	DSC2A-00468
+IP	192.168.1.100
+Location of Instrument	MRRC
+DisplayType	Unknown
+Sample Interval 	0.1 s/pt
+Selected Heat Flow	T4P
+Exotherm Direction	Down
+Cell Serial	DRC2-00792
+Lid Type	Standard
+Cooler	RCS 90
+Leave Cooler on at End of Sequence	On
+Gas 2	Nitrogen
+Gas Selected	Channel 1
+Flow Rate	50 mL/min
+Secondary Purge	On
+Licensed Heat Flow	Heat Flow T4P
+Modulation Licensed	Yes
+[Versions]
+Common IDD Version	1
+Cortex Version	VER 2.10.2.31
+Driver	5.0.0.6
+GDM Version	1.0.3.3
+TouchscreenVersion	1.0.0.16145
+FEP Version	1.2.1.21
+FEP Bootloader	2.0.0.5
+AutoSampler Version	2.1.1.26
+Auto Sampler Bootloader	2.0.0.5
+FCM Version	1.1.0.3
+FCM Bootloader	2.0.0.5
+[Experiment Logs]
+Experiment Log Entry # 1	Data On set to 0
+Experiment Log Entry # 3	Equilibrate Segment 120 (C) Started
+Experiment Log Entry # 5	Data On set to 1
+Experiment Log Entry # 7	Ramp Segment 10 C/min to 180 Started
+Experiment Log Entry # 9	Data On set to 0
+Experiment Log Entry # 11	Isothermal Segment 0.1 min started
+Experiment Log Entry # 13	Data On set to 1
+Experiment Log Entry # 15	Ramp Segment 10 C/min to 120 Started
+[Method Log]
+Method Log Entry # 1	Data Off
+Method Log Entry # 2	Equilibrate 120 °C
+Method Log Entry # 3	Data On
+Method Log Entry # 4	(Ramp 61851) Ramp 10 °C/minute to 180 °C
+Method Log Entry # 5	Data Off
+Method Log Entry # 6	Isothermal 0.1 minutes
+Method Log Entry # 7	Data On
+Method Log Entry # 8	(Ramp 61855) Ramp 10 °C/minute to 120 °C
+Cell Serial	DRC2-00792
+[T1 Calibration]
+Slope	-0.008529666
+Offset	9.636258
+Initial Temperature	98.23
+GUID	f8bfdadc-4977-4fdf-ba6d-0ba9134940c3
+[TZero Calibration]
+Date Applied	11/29/2022 4:06:13 PM
+Description	From -89.059 °C to 396.009 °C at 20.000°C/min
+Gas Type	Nitrogen
+Pan Type	None
+Source Files 1	C:\Users\yargerlab\Desktop\DSC Data\General\TZero_calibration_11_29_22_2nd(2).tri
+Source Files 2	C:\Users\yargerlab\Desktop\DSC Data\General\TZero_calibration_11_29_22_2nd(3).tri
+Delta T Offset	13.05235
+Delta T Slope	-0.007271007
+Delta T0 Offset	-13.69128
+Delta T0 Slope	0.06063341
+[Temperature Calibration]
+Date Applied	11/29/2022 7:12:28 PM
+Description	From 106.590 °C to 186.590 °C at 10.000°C/min
+Gas Type	Nitrogen
+Pan Type	Tzero Aluminum Hermetic
+Source Files 1	C:\Users\yargerlab\Desktop\DSC Data\General\Indium(6).tri
+Measured 1	157.391
+Known 1	156.598
+[Cell Constant Calibration]
+Date Applied	11/29/2022 7:12:29 PM
+Description	From 106.590 °C to 186.590 °C at 10.000°C/min
+Gas Type	Nitrogen
+Pan Type	Tzero Aluminum Hermetic
+Source Files 1	C:\Users\yargerlab\Desktop\DSC Data\General\Indium(6).tri
+T4P KCell	1.006051
+Onset Slope	63.26126 mW/°C
+[Direct Cp Calibration]
+Date Applied	11/30/2022 11:04:51 AM
+Description	From -79.983 °C to 298.409 °C at 10.000°C/min
+Gas Type	Nitrogen
+Pan Type	Tzero Aluminum Hermetic
+Source Files 1	C:\Users\yargerlab\Desktop\DSC Data\General\Sapphire_Heat_Capacity_11_30_22.tri
+[Rev Cp Calibration]
+Date Applied	11/30/2022 1:58:51 PM
+Description	From -79.996 °C to 292.812 °C at 3.000°C/min
+Gas Type	Nitrogen
+Pan Type	Tzero Aluminum Hermetic
+Source Files 1	C:\Users\yargerlab\Desktop\DSC Data\General\Sapphire_MDSC_Calibration_11_30_22.tri
+[step]
+Ramp 10.00 °C/min to 180.00 °C
+Time	Temperature	Heat Flow (Normalized)
+min	°C	W/g
+0.00	120.06	-0.004
+0.00	120.06	-0.004
+0.00	120.06	-0.004
+0.01	120.06	-0.004
+0.01	120.06	-0.004
+0.01	120.07	-0.004
+0.01	120.07	-0.004
+0.01	120.07	-0.004
+0.01	120.07	-0.004
+0.01	120.07	-0.004
+0.02	120.07	-0.004
+0.02	120.07	-0.004
+0.02	120.07	-0.005
+0.02	120.07	-0.005
+0.02	120.07	-0.005
+0.03	120.07	-0.005
+0.03	120.07	-0.005
+0.03	120.07	-0.005
+0.03	120.07	-0.005
+0.03	120.08	-0.005
+0.03	120.08	-0.006
+0.03	120.08	-0.006
+0.04	120.08	-0.006
+0.04	120.08	-0.006
+0.04	120.08	-0.006
+0.04	120.08	-0.007
+0.04	120.08	-0.007
+0.05	120.08	-0.007
+0.05	120.09	-0.008
+0.05	120.09	-0.008
+0.05	120.09	-0.008
+0.05	120.09	-0.009
+0.05	120.09	-0.009
+0.05	120.09	-0.010
+0.06	120.10	-0.010
+0.06	120.10	-0.010
+0.06	120.10	-0.011
+0.06	120.10	-0.011
+0.06	120.11	-0.012
+0.07	120.11	-0.013
+0.07	120.11	-0.013
+0.07	120.12	-0.014
+0.07	120.12	-0.014
+0.07	120.12	-0.015
+0.07	120.13	-0.016
+0.08	120.13	-0.016
+0.08	120.13	-0.017
+0.08	120.14	-0.017
+0.08	120.14	-0.018
+0.08	120.15	-0.019
+0.08	120.15	-0.019
+0.08	120.16	-0.020
+0.09	120.16	-0.020
+0.09	120.17	-0.021
+0.09	120.17	-0.022
+0.09	120.18	-0.022
+0.09	120.18	-0.023
+0.09	120.19	-0.023
+0.10	120.19	-0.024
+0.10	120.20	-0.024
+[step]
+Ramp 10.00 °C/min to 120.00 °C
+Time	Temperature	Heat Flow (Normalized)
+min	°C	W/g
+6.10	179.51	0.041
+6.10	179.53	0.041
+6.10	179.54	0.041
+6.10	179.55	0.041
+6.10	179.56	0.040
+6.11	179.57	0.040
+6.11	179.58	0.040
+6.11	179.59	0.040
+6.11	179.60	0.040
+6.11	179.61	0.040
+6.11	179.62	0.040
+6.12	179.63	0.040
+6.12	179.63	0.040
+6.12	179.64	0.040
+6.12	179.65	0.040
+6.12	179.66	0.040
+6.13	179.67	0.040
+6.13	179.68	0.040
+6.13	179.68	0.040
+6.13	179.69	0.040
+6.13	179.70	0.040
+6.13	179.71	0.040
+6.14	179.71	0.040
+6.14	179.72	0.040
+6.14	179.73	0.040
+6.14	179.73	0.040
+6.14	179.74	0.040
+6.14	179.74	0.040
+6.15	179.75	0.040
+6.15	179.75	0.040
+6.15	179.76	0.040
+6.15	179.77	0.040
+6.15	179.77	0.040
+6.15	179.78	0.040
+6.15	179.78	0.040
+6.16	179.78	0.040
+6.16	179.79	0.040
+6.16	179.79	0.040
+6.16	179.79	0.039
+6.16	179.80	0.039
+6.16	179.80	0.039
+6.17	179.80	0.039
+6.17	179.81	0.039
+6.17	179.81	0.038
+6.17	179.81	0.038
+6.17	179.81	0.038
+6.18	179.81	0.038
+6.18	179.81	0.037
+6.18	179.82	0.037
+6.18	179.82	0.037
+6.18	179.82	0.037
+6.18	179.82	0.036
+6.19	179.82	0.036
+6.19	179.82	0.036
+6.19	179.82	0.035
+6.19	179.82	0.035
+6.19	179.81	0.035
+6.19	179.81	0.035
+6.20	179.81	0.034
+6.20	179.81	0.034

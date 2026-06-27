@@ -1,0 +1,561 @@
+##TITLE=      1H Adamantane Reference Standard - Egg Case Silk - Steve - 2024
+##JCAMP-DX=   5.01   $$ Agilent Technologies, VNMR Software
+$$ VNMR Version VERSION Revision REVISION, May 22, 2014
+$$ 2024/05/17 16:46:15 -0700
+$$ writedata version 9.4, 2007-03-15
+$$   listparam.c 3.2 (2009-03-17_09:34)
+##DATA TYPE=  NMR SPECTRUM
+##DATA CLASS= XYDATA
+##ORIGIN=     WB400.mrrc.com.(none)
+##OWNER=      solids
+##SPECTROMETER/DATA SYSTEM=   Varian VNMRS-400
+##.OBSERVE FREQUENCY= 399.7394556  $$ MHz
+##.OBSERVE NUCLEUS=   ^1H
+$$solvent=dmso
+##.FIELD=             9.39         $$ Tesla
+##.ACQUISITION TIME=  0.0409600    $$ seconds
+##.AVERAGES=          4            $$ number of transients
+##RESOLUTION=         6.104        $$ digital resolution in Hz
+##.MAS FREQUENCY=     20002        $$ Hz
+##.PHASE 0=           -38.9        $$ zero order phase correction (left edge)
+##.PHASE 1=           -0.000000    $$ first order phase correction, deg/Hz
+##$REFERENCE_POINT=   22998.457    $$ Referencing label
+$$      Distance of the zero axis position (in Hz) from the last data
+$$      point (right edge); positive values -> right edge is below 0 Hz
+$$
+$$ Varian specific parameters
+$$ --------------------------
+##$acqcycles=    1
+##$acqdim=       1
+##$acqpath=      <>
+##$acqstatus=    (0..1)  101 0
+##$ACQtime=      451.844122
+##$ad=           5                 $$ usec
+##$adir2tmplt=   <>
+##$adirtmplt=    <>
+##$aH90=         3000
+##$aHhx=         0
+##$aHhy=         1525
+##$aHmix=        2000
+##$aHspinal=     2000
+##$aHtppm=       0
+##$aHwaltz=      0
+##$aHyx=         2000
+##$alfa=         10                $$ usec
+##$alock=        <n>
+##$ampmode=      <dddd>
+##$apptype=      <solidsseq1d>
+##$Archive1=     <>
+##$Archive2=     <>
+##$archivedir=   <>
+##$array=        <>
+##$arraydelta=   1
+##$arraydim=     1
+##$arraydodc=    <n>
+##$arraydscale=  <n>
+##$arrayelemts=  0
+##$arrayflip=    <n>
+##$arraystart=   1
+##$arraystop=    1
+##$at=           0.04096
+##$avwdir=       <>
+##$aX180=        3500
+##$aX90=         3500
+##$aXdfs=        0
+##$aXhx=         0
+##$aXyx=         875
+##$aY90=         2800
+##$aYhy=         3950
+##$aYspinal=     0
+##$aYtppm=       0
+##$aYyx=         3225
+##$aZ90=         2000
+##$bHX=          0
+##$bHY=          0
+##$bs=           1
+##$bYX=          0
+##$celem=        1
+##$chHspinal=    <dec>
+##$chHtppm=      <dec>
+##$chHwaltz=     <dec>
+##$chHX=         <fr>
+##$chHY=         <fr>
+##$chXdfs=       <>
+##$chYspinal=    <dec2>
+##$chYtppm=      <dec2>
+##$chYX=         <fr>
+##$clearparams=  <chHspinal chHtppm chHwaltz>
+##$comment=      <>
+##$concentration= 0
+##$console=      <vnmrs>
+##$cp=           <y>
+##$ct=           4
+##$d1=           10                $$ sec
+##$d2=           0                 $$ sec
+##$d3=           0                 $$ usec
+##$dataid=       <>
+##$dataProcessed= 0
+##$date=         <Mar 29 2024>
+##$datname=      <>
+##$ddrpm=        <>
+##$ddrtc=        10                $$ usec
+##$dec2wave=     <g>
+##$dec3wave=     <g>
+##$decwave=      <g>
+##$density=      1
+##$dfrq=         100.5178934       $$ Hz
+##$dfrq2=        40.4985551
+##$dfrq3=        0
+##$dHX=          0
+##$dHY=          100
+##$dm=           <n>
+##$dm2=          <n>
+##$dm3=          <n>
+##$dmf=          9900
+##$dmf2=         10000
+##$dmf3=         10000
+##$dmm=          <c>
+##$dmm2=         <c>
+##$dmm3=         <c>
+##$dn=           <C13>
+##$dn2=          <N15>
+##$dn2shapes=    (0..2)  <> <> <>
+##$dn3=          <>
+##$dn3shapes=    (0..2)  <> <> <>
+##$dnshapes=     (0..2)  <> <> <>
+##$dod=          0.00999999977648  $$ sec
+##$dof=          -7195.9           $$ Hz
+##$dof2=         -11063.7          $$ Hz
+##$dof3=         0                 $$ Hz
+##$dp=           <y>
+##$dpwr=         57
+##$dpwr2=        57
+##$dpwr3=        54
+##$dreffrq=      100.515563163
+##$dreffrq2=     40.5210591862
+##$dres=         90
+##$dres2=        1
+##$dres3=        1
+##$dseq=         <>
+##$dseq2=        <>
+##$dseq3=        <>
+##$dutyc=        0.1
+##$dwell=        0                 $$ usec
+##$dYX=          0
+##$email_=       <>
+##$emailwhen=    <>
+##$emessage=     <n>
+##$explabel=     <tancpx>
+##$explist=      <>
+##$exppath=      </home/solids/vnmrsys/exp202/acqfil>
+##$f1coef=       <>
+##$f1SW=         <>
+##$f2SW=         <>
+##$faculty=      <>
+##$fb=           13800
+##$fdfdir=       <>
+##$fdffile=      <>
+##$fidid=        <>
+##$file=         </home/solids/MRRC_CORE_DATA/Steve/2024_04_SilkPharma/Calibration/H1_adamantane_onepul_refcheck_20kHz.fid>
+##$filename=     <>
+##$filter=       44.0999984741
+##$fn=           16384
+##$frHX=         <dec>
+##$frHY=         <dec>
+##$frYX=         <dec2>
+##$ftproc=       (0..1)  1 4
+##$gain=         0
+##$Gmap=         <lk>
+##$Gmapname=     <>
+##$go_id=        <exp202.solids.WB400.mrrc.com_1711756972_065739>
+##$go_Options=   <go>
+##$gxppars=      <>
+##$H1reffrq=     399.743421015
+##$hdmf=         600
+##$hdof=         0                 $$ Hz
+##$hdpsmode=     <n>
+##$hdpwr=        1
+##$hdpwrf=       4095
+##$hdres=        9
+##$hdseq=        <>
+##$hdwave=       <SEDUCE1>
+##$Hmixseq=      <>
+##$homo=         <n>
+##$homo2=        <n>
+##$homo3=        <n>
+##$hs=           <nn>
+##$Hseq=         <tppm>
+##$hsrotor=      <y>
+##$hst=          0.00800000037998  $$ sec
+##$ident=        <>
+##$il=           <n>
+##$in=           <n>
+##$intstd=       <>
+##$investigator= <>
+##$IPrunid=      <>
+##$iswt=         0
+##$lcpeak_=      0
+##$lllabel=      <>
+##$load=         <n>
+##$loc_=         0
+##$locdir=       <>
+##$lockfreq_=    61.3632           $$ Hz
+##$lockgain_=    0
+##$lockphase_=   0
+##$lockpower_=   0
+##$longlist=     <>
+##$lot=          <>
+##$lpalg=        <lpfft>
+##$lpalg1=       <lpfft>
+##$lpext=        5
+##$lpext1=       1
+##$lpfilt=       32
+##$lpfilt1=      32
+##$lpnupts=      256
+##$lpnupts1=     64
+##$lpopt=        <b>
+##$lpopt1=       <b>
+##$lpprint=      0
+##$lpprint1=     0
+##$lptrace=      0
+##$lptrace1=     0
+##$marker1=      <>
+##$marker2=      <>
+##$markerfrq1=   0
+##$markerfrq2=   0
+##$method=       <z1z2>
+##$mfslp=        <n>
+##$MinSW=        <off>
+##$modules=      <>
+##$name=         <>
+##$nameprefix=   <>
+##$newmodules=   <>
+##$ni=           1
+##$nloop=        0
+##$notebook=     <>
+##$np=           4096
+##$npts=         0
+##$nt=           4
+##$obsSW=        <>
+##$of1Xdfs=      0                 $$ Hz
+##$of2Xdfs=      0                 $$ Hz
+##$ofHX=         0                 $$ Hz
+##$ofHY=         0                 $$ Hz
+##$ofXdfs=       0                 $$ Hz
+##$ofYX=         0                 $$ Hz
+##$operator_=    <solids>
+##$p1=           0                 $$ usec
+##$p11console=   <>
+##$pad=          0                 $$ sec
+##$page=         <>
+##$paramChanged= 0
+##$parlabel=     <>
+##$parver=       <VnmrJ VERSION 4.0 REVISION A>
+##$parversion=   5.1
+##$PFGflg=       <n>
+##$phase=        1
+##$phHspinal=    9.9864
+##$phHtppm=      0
+##$phYspinal=    0
+##$phYtppm=      0
+##$plocklist=    <>
+##$plotfile=     <>
+##$pltopt=       <y>
+##$pmode=        <full>
+##$position1=    <>
+##$position2=    <>
+##$pp=           46.4000053406     $$ usec
+##$pplvl=        55
+##$pplvl_cf=     1
+##$prcopt=       <y>
+##$prescan=      (0..10)  <Not done> <Not done> <off> <off> <off> <off> <off> <on> <on> <> <>
+##$priority=     5
+##$probe_=       <1.6_MM_FMAS>
+##$probetype_=   <mas>
+##$proc=         <ft>
+##$proccmd=      <wft>
+##$procdim=      1
+##$processid=    0
+##$protocols=    <>
+##$pslabel=      <onepul>
+##$pw=           5.99999904633     $$ usec
+##$pw90=         0                 $$ usec
+##$pwH90=        2.5               $$ usec
+##$pwHspinal=    8                 $$ usec
+##$pwHtppm=      0                 $$ usec
+##$pwHwaltz=     0                 $$ usec
+##$pwx=          15                $$ usec
+##$pwX180=       5                 $$ usec
+##$pwx2=         15                $$ usec
+##$pwx2lvl=      55
+##$pwx2lvl_cf=   1
+##$pwX90=        1.4               $$ usec
+##$pwXdfs=       0                 $$ usec
+##$pwxlvl=       55
+##$pwxlvl_cf=    1
+##$pwY90=        2.5               $$ usec
+##$pwYspinal=    0                 $$ usec
+##$pwYtppm=      0                 $$ usec
+##$pwZ90=        4                 $$ usec
+##$queue=        <dayQ>
+##$rd=           5                 $$ usec
+##$ref=          651.583001501     $$ Hz
+##$ref1=         0                 $$ Hz
+##$reffrq2=      100.515085718
+##$refsource1=   <dfrq>
+##$refstd_=      <>
+##$researchgroup= <>
+##$retentiontime_= <>
+##$rfband=       <ccc>
+##$rfchnuclei=   <>
+##$rof1=         0                 $$ usec
+##$rof2=         24.975            $$ usec
+##$sample=       <>
+##$samplename=   <>
+##$sampleowner=  <>
+##$sampwt=       0
+##$satdly=       0                 $$ sec
+##$satfrq=       0                 $$ Hz
+##$satmode=      <n>
+##$satpwr=       0
+##$saveglobal_=  (0..19)  <probe> <lcpeak> <loc> <lockpower> <lockgain> <lockphase> <lockfreq> <z0> <lkof> <vloc> <vrack> <vzone> <vproto> <pkpick> <parstyle> <operator> <studyid> <systemname> <probetype> <refstd>
+##$saveshapes=   <>
+##$scans=        <>
+##$scoutinfo=    <>
+##$sdirtmplt=    <>
+##$seqfil=       <onepul>
+##$sfrq=         399.7394556
+##$shHX=         <l>
+##$shHY=         <l>
+##$shims=        <>
+##$showarray=    <horiz>
+##$showcontent=  <s>
+##$shownumbers=  <n>
+##$shownumstyle= <auto>
+##$shownumx=     0
+##$shownumy=     0
+##$shYX=         <l>
+##$sn=           50
+##$solvent=      <dmso>
+##$srate=        20002             $$ Hz
+##$sreffrq=      399.743421015
+##$ss=           0
+##$sspul=        <n>
+##$strtext=      5
+##$strtext1=     1
+##$strtlp=       5
+##$strtlp1=      2
+##$strtpar=      <>
+##$study=        <>
+##$studyid_=     <tmpstudy>
+##$studyowner=   <solids>
+##$studystatus=  <Empty>
+##$studytime=    0
+##$svfopt=       <y>
+##$svftmplt=     <>
+##$sw=           50000
+##$sw1=          16000
+##$systemname_=  <WB400.mrrc.com-vnmrs400>
+##$tau1=         0                 $$ usec
+##$tau2=         0                 $$ usec
+##$tau3=         0                 $$ usec
+##$tHmix=        50000             $$ usec
+##$tHX=          0                 $$ usec
+##$tHY=          1000              $$ usec
+##$time_exp=     <50 sec>
+##$time_plotted= <>
+##$time_processed= <20240405T164322>
+##$time_run=     <20240329T170252>
+##$time_submitted= <20240329T170252>
+##$time_submitted_local= <20240329T170252X05PMFriMar>
+##$time_svfdate= <20240329T170252>
+##$tin=          <n>
+##$tn=           <H1>
+##$tnshapes=     (0..2)  <> <> <>
+##$tof=          -5964.1           $$ Hz
+##$toHX=         <obs>
+##$toHY=         <dec2>
+##$toYX=         <obs>
+##$tpwr=         54
+##$tpwr_cf=      1
+##$tunemethod=   <n>
+##$tXmix=        0                 $$ usec
+##$tYX=          1000              $$ usec
+##$user=         < 1-14-87>
+##$username=     <Greg>
+##$vloc_=        <A0>
+##$volume=       0
+##$vproto_=      <>
+##$vrack_=       1
+##$vtc=          25
+##$vtwait=       1                 $$ sec
+##$vzone_=       1
+##$wbs=          <>
+##$wdone=        <>
+##$wds=          <>
+##$werr=         <>
+##$wexp=         <>
+##$wnt=          <>
+##$wshim=        <n>
+##$wstart=       <>
+##$wtfile=       <>
+##$wtune=        <n>
+##$x1=           -785
+##$x2y2=         0
+##$x3=           0
+##$x4=           0
+##$xy=           0
+##$xz=           60
+##$xz2=          0
+##$y1=           -20
+##$y3=           0
+##$y4=           0
+##$Yseq=         <>
+##$yz=           0
+##$yz2=          0
+##$z0_=          0
+##$z1=           -370
+##$z1c=          -1044
+##$z2=           -170
+##$z2c=          196
+##$z2x2y2=       0
+##$z2x3=         0
+##$z2xy=         0
+##$z2y3=         0
+##$z3=           -20
+##$z3c=          0
+##$z3x=          0
+##$z3x2y2=       0
+##$z3x3=         0
+##$z3xy=         0
+##$z3y=          0
+##$z3y3=         0
+##$z4=           0
+##$z4c=          0
+##$z4x=          0
+##$z4x2y2=       0
+##$z4xy=         0
+##$z4y=          0
+##$z5=           0
+##$z5x=          0
+##$z5y=          0
+##$z6=           0
+##$z7=           0
+##$z8=           0
+##$zx2y2=        0
+##$zx3=          0
+##$zxy=          0
+##$zy3=          0
+##$rp=           -38.9
+##$lp=           0.0
+##$rfl=          23001.3      $$ Hz
+##$rfp=          0.0          $$ Hz
+##$reffrq=       399.7374569  $$ MHz
+##$axis=         <p2>
+##$th=           0.0          $$ mm
+##$sp=           -22995.2     $$ Hz
+##$wp=           49993.9      $$ Hz
+##$cr=           9671.5       $$ Hz
+##$delta=        300.0        $$ Hz
+##$dmg=          <ph>
+##$aig=          <ai>
+##$vs=           808.6
+$$
+$$ End of Varian specific parameters
+$$ ---------------------------------
+$$ data saved in "DIFDUP" format
+$$ Y-values stored with extended (24-bit) integer precision
+$$
+##DELTAX=        -6.103515625
+##XUNITS=        PPM
+##YUNITS=        ARBITRARY UNITS      $$ (mm on paper)
+##XFACTOR=       1.000000000000
+##YFACTOR=       1.000000000000
+##FIRSTXHz=        26998.734852
+##LASTXHz=         -22995.161633
+##NPOINTS=       8192
+##MAXY=          66.627043
+##MINY=          -0.036365
+##FIRSTY=        -0.025555
+##XYDATA=        (XY..XY))
+67.541, -0.025555
+67.526, -0.022735
+67.511, -0.022165
+67.495, -0.025318
+67.480, -0.028234
+67.465, -0.027272
+67.450, -0.024818
+67.434, -0.025276
+67.419, -0.028035
+67.404, -0.029120
+67.388, -0.027885
+67.373, -0.026987
+67.358, -0.026900
+67.343, -0.025682
+67.327, -0.023743
+67.312, -0.023728
+67.297, -0.025539
+67.282, -0.026174
+67.266, -0.024803
+67.251, -0.023583
+67.236, -0.023241
+67.221, -0.022425
+67.205, -0.021734
+67.190, -0.023620
+67.175, -0.027523
+67.159, -0.029719
+67.144, -0.028902
+67.129, -0.027488
+67.114, -0.026706
+67.098, -0.025212
+67.083, -0.023476
+67.068, -0.024284
+67.053, -0.027311
+67.037, -0.028351
+67.022, -0.025986
+67.007, -0.023999
+66.991, -0.024898
+66.976, -0.026016
+66.961, -0.024861
+66.946, -0.023548
+66.930, -0.024698
+66.915, -0.027176
+66.900, -0.029019
+66.885, -0.030418
+66.869, -0.030855
+66.854, -0.027939
+66.839, -0.022615
+66.824, -0.020572
+66.808, -0.024147
+66.793, -0.027589
+66.778, -0.025558
+66.762, -0.021734
+66.747, -0.022623
+66.732, -0.026624
+66.717, -0.026773
+66.701, -0.022202
+66.686, -0.019038
+66.671, -0.020333
+66.656, -0.022532
+66.640, -0.022748
+66.625, -0.022858
+66.610, -0.024461
+66.595, -0.025578
+66.579, -0.024876
+66.564, -0.024497
+66.549, -0.026027
+66.533, -0.027597
+66.518, -0.027510
+66.503, -0.027133
+66.488, -0.027564
+66.472, -0.027010
+66.457, -0.024627
+66.442, -0.023697
+66.427, -0.026948
+66.411, -0.031076
+66.396, -0.030606
+66.381, -0.026265
+66.365, -0.024604
+66.350, -0.028521
+66.335, -0.032625
+##END=

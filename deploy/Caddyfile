@@ -1,0 +1,6 @@
+# Caddy reverse proxy with automatic HTTPS.
+# PSIDATA_DOMAIN is supplied by docker-compose (defaults to localhost for local testing).
+{$PSIDATA_DOMAIN:localhost} {
+	encode gzip zstd
+	reverse_proxy app:8000
+}
